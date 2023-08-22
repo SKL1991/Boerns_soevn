@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password protected"
+AuthUserFile /home/SDU/stlan11/public_html/boerns_soevn/.htpasswd
+Require valid-user

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Billund kommune - børns soevn</title>
+  <link rel="stylesheet" href="./css/stylesheet.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Great+Vibes&family=Open+Sans:wght@300&display=swap">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('#includemenu').load("menu.html");
+  });
+</script>
+
+
+</head>
+
+<body>
+  <section class="content">
+
+    <div id="includemenu"></div>
+
+    <section class="top-container">
+
+      <img src="./images/logo.png" class="logo" alt="Billund-kommune-logo">
+
+      <div id="introduction">
+        <hr>
+        <h1>Babyer og børns søvn v/sundhedsplejen</h1>
+        <hr><br>
+
+        <p><b>Velkommen til sundhedsplejen ved Billund kommunes vejledning til god søvn hos børn i alderen fra nyfødt til skolebarn.</b></p>
+        <p><b>Nedenfor finder du en række sider med viden samt råd og vejledning indenfor emnet.</b></p>
+      </div>
+
+    </section>
+
+    <section class="middle-container">
+
+      <div id="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="./images/sleeping-baby1.jpg" class="sleeping-baby" alt="sovende-baby">
+          <div class="text">Hvorfor søvn er vigtigt</div>
+        </div>
+
+
+
+        <div class="mySlides fade">
+          <img src="./images/sleep-cycle1.jpg" class="sleeping-baby" alt="sovende-baby">
+          <div class="text">Søvnfaser</div>
+        </div>
+
+
+
+        <div class="mySlides fade">
+          <img src="./images/infographic.jpg" class="sleeping-baby" alt="sovende-baby">
+          <div class="text">Søvnmængder</div>
+        </div>
+
+
+
+        <div class="mySlides fade">
+          <img src="./images/crying-baby.jpg" class="sleeping-baby" alt="sovende-baby">
+          <div class="text">Søvn og gråd</div>
+        </div>
+
+
+
+        <div class="mySlides fade">
+          <img src="./images/baby-sleeping-outside.jpg" class="sleeping-baby" alt="sovende-baby">
+          <div class="text">Steder at sove</div>
+        </div>
+
+
+
+        <div class="mySlides fade">
+          <img src="./images/co-sleeping.jpg" class="sleeping-baby" alt="sovende-baby">
+          <div class="text">Putteritualer</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section>
+
+      <div class="footer">
+
+        <div class="contact">
+          <h3>Kontakt til sundhedsplejen</h3>
+          <p>Har du behov for yderligere vejledning, kan du kontakte din lokale sundhedsplejerske.</p>
+          <p>Du finder kontaktoplysningerne på Billund Kommunes hjemmeside: <a href="https://billund.dk/">www.billund.dk/</a>.
+          </p>
+          <p>Ellers kan du kontakte sundhedsplejens sekretær alle hverdage mellem kl. 8-11, undtagen onsdag, på tlf.:
+            <a href="tel:79727612">79 72 76 12</a>.
+          </p>
+        </div>
+
+        <hr id="footer-rule">
+
+        <div class="grid-container">
+          <div class="grid-item">
+            <h3>Billund Kommune</h3>
+            <p><b>Adresse:</b> Jorden Rundt 1</p>
+            <p><b>Postnummer:</b> 7200 Grindsted</p>
+            <p><b>Hovednummer</b>: <a href="tel:79727200">79 72 72 00</a>
+            <p>Besvares alle hverdage fra kl. 8.30</p>
+            </p>
+            <p><b>Fax:</b> 75 32 25 71</p>
+            <p><b>Mail:</b>
+              <a href="mailto:kommunen@billund.dk" title="send mail">kommunen@billund.dk</a>
+            </p>
+            <p><b>CVR-nummer:</b> 29 18 97 65</p>
+          </div>
+
+          <div class="grid-item">
+            <h3>Åbningstider</h3>
+            <p><b>Rådhuset:</b></p>
+            <p>Mandag til onsdag</p>
+            <p><b>kl. 08.00 - 15.30</b></p>
+            <p>Torsdag</p>
+            <p><b>Kl. 08.00 - 17.00</b></p>
+            <p>Fredag</p>
+            <p><b>Kl. 08.00 - 12.00</b></p>
+
+            <p><b>Borgerservice med tidsbestilling</b></p>
+            <p>Borgerservice Magion</p>
+            <p>Bibliotek</p>
+            <p>Borgerservice Billund</p>
+            <p>Bibliotek</p>
+            <p>Tlf.: 79 72 70 15</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </section>
+
+  <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>
